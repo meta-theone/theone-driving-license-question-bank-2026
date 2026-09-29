@@ -1,0 +1,58 @@
+<!doctype html>
+<!--theone-meta cat=tool | date=2026.09.29 | title=운전면허 학과시험 문제은행 2026 - 1·2종 및 대형·특수 1,000문항 | group=학습·시험 | btn=문제 풀기 -->
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e9f7f2">
+  <meta name="description" content="한국도로교통공단 2026년 3월 9일 시행 학과시험 문제은행 1,000문항을 번호순, 랜덤, 오답노트로 연습합니다.">
+  <title>운전면허 학과시험 문제은행 2026 | 더원사업단</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <a class="brand" href="https://withtheone.com/">THE ONE <span>더원사업단</span></a>
+      <a class="toplink" href="https://withtheone.com/materials/">자료실 ↗</a>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">2026. 3. 9. 시행 · 한국어</p>
+      <h1>운전면허 학과시험<br><em>1,000문항 문제은행</em></h1>
+      <p>1·2종 보통, 대형·특수 학과시험 공개 문제로 연습하세요. 그림 문제도 함께 볼 수 있습니다.</p>
+      <div class="hero-stats" aria-label="문제은행 구성"><span><strong>1,000</strong>문항</span><span><strong>282</strong>복수정답</span><span><strong>40</strong>문항 연습</span></div>
+    </section>
+    <section class="controls" aria-label="문제 선택">
+      <div class="mode-row">
+        <button class="mode active" type="button" data-mode="all">번호순</button>
+        <button class="mode" type="button" data-mode="random">랜덤</button>
+        <button class="mode" type="button" data-mode="mock">40문항 연습</button>
+        <button class="mode" type="button" data-mode="wrong">오답노트 <span id="wrong-count">0</span></button>
+        <button class="mode" type="button" data-mode="favorite">즐겨찾기 <span id="favorite-count">0</span></button>
+      </div>
+      <div class="find-row">
+        <label for="question-number">문항 번호</label>
+        <input id="question-number" type="number" min="1" max="1000" inputmode="numeric" placeholder="1~1000">
+        <button id="jump" type="button">이동</button>
+        <span id="session-status" role="status"></span>
+      </div>
+    </section>
+    <section class="question-card" id="question-card" aria-live="polite">
+      <div class="loading">문제은행을 불러오는 중입니다…</div>
+    </section>
+    <div class="navigation" aria-label="문항 이동">
+      <button id="previous" type="button">← 이전</button>
+      <button id="next" type="button">다음 →</button>
+    </div>
+    <section class="source-note">
+      <h2>출처와 이용 안내</h2>
+      <p>출처: 한국도로교통공단 안전운전 통합민원, <a href="https://www.safedriving.or.kr/subExamBoard/selectSubExamBoardKorList.do?menuCd=MN-PO-1151" target="_blank" rel="noopener noreferrer">2026년 3월 9일 시행 1·2종보통·대형·특수 학과시험 문제은행</a>. 제공된 PDF의 문항·정답·해설을 옮겼습니다.</p>
+      <p>971~1000번 등 영상 참조 문항은 영상이 포함되지 않습니다. <a href="https://www.safedriving.or.kr/subExamBoard/selectSubExamBoardMovieList.do?menuCd=MN-PO-1153" target="_blank" rel="noopener noreferrer">공식 동영상 문제</a>를 함께 확인하세요. 실제 시험의 출제·배점·합격 판정은 공단 기준을 따릅니다. 이 페이지의 40문항 결과는 학습용 정답률입니다.</p>
+      <p>풀이 기록과 즐겨찾기는 이 브라우저에만 저장됩니다.</p>
+    </section>
+  </main>
+  <footer class="footer"><div class="wrap">더원사업단 · 학습용 문제은행</div></footer>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "source": "(1,2종) 학과시험 문제은행[한국어]_(2026.3.9.시행) (1).pdf",
+  "sha256": "b718e38c5f29ac94258a0587bbc98c17ca8ae0153e8948a1525a33ca38354eb0",
+  "pages": 331,
+  "questions": 1000,
+  "multiAnswer": 282,
+  "withImages": 285,
+  "imageFiles": 349,
+  "videoReferences": 35,
+  "emptyExplanations": [
+    964
+  ]
+}
